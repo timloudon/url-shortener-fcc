@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="styles.css" type="text/css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto" type="text/css">
+	<title>URL Shortener API</title>
+</head>
+
+<body>
+	<h1>URL Shortener API</h1>
+	<form action="/api/shorturl/new" method="POST">
+		<label for="url">URL to shorten:</label>
+    <input type="url" name="url" id="url"> 
+    <input type="submit" value="POST URL">
+  </form>
+</body>
+</html>
